@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Universal File Downloader",
+  "version": "5.0",
+  "description": "Detects and downloads files (PPT, PDF, DOC, ZIP) from any webpage.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
